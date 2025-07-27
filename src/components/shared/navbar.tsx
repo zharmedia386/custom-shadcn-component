@@ -35,8 +35,8 @@ export function NavbarDemo() {
     //   link: '/showcase',
     // },
     {
-      name: 'Custom',
-      link: '/custom',
+      name: 'Mvpblocks',
+      link: '/mvpblocks',
     },
     {
       name: 'Aceternity',
