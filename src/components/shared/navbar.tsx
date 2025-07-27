@@ -18,22 +18,22 @@ import { redirect } from 'next/navigation';
 
 export function NavbarDemo() {
   const navItems = [
-    {
-      name: 'Docs',
-      link: '/docs/introduction',
-    },
-    {
-      name: 'About',
-      link: '/about',
-    },
-    {
-      name: 'Features',
-      link: '/#features',
-    },
-    {
-      name: 'Showcase',
-      link: '/showcase',
-    },
+    // {
+    //   name: 'Docs',
+    //   link: '/docs/introduction',
+    // },
+    // {
+    //   name: 'About',
+    //   link: '/about',
+    // },
+    // {
+    //   name: 'Features',
+    //   link: '/#features',
+    // },
+    // {
+    //   name: 'Showcase',
+    //   link: '/showcase',
+    // },
     {
       name: 'Custom',
       link: '/custom',
