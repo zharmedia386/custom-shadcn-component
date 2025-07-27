@@ -38,6 +38,10 @@ export function NavbarDemo() {
       name: 'Custom',
       link: '/custom',
     },
+    {
+      name: 'Aceternity',
+      link: '/aceternity',
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

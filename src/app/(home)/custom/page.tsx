@@ -1,7 +1,6 @@
 'use client';
 
-import { Geist } from 'next/font/google';
-import CTA from '@/components/shared/cta';
+import CTA from '@/components/shared/cta';  
 import Faqs from '@/components/shared/faq';
 import GradientHero from '@/components/mvpblocks/mainsections/hero/gradient-hero';
 import StarOnGithub from '@/components/mvpblocks/basics/buttons/star-on-github';
