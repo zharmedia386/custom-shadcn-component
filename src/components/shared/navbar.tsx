@@ -42,6 +42,10 @@ export function NavbarDemo() {
       name: 'Aceternity',
       link: '/aceternity',
     },
+    {
+      name: 'Magic UI',
+      link: '/magicui',
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
