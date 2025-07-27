@@ -46,6 +46,10 @@ export function NavbarDemo() {
       name: 'Magic UI',
       link: '/magicui',
     },
+    {
+      name: 'React Bits',
+      link: '/reactbits',
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
