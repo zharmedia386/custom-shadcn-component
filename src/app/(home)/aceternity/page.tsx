@@ -1,9 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import { FloatingDock } from '@/components/ui/floating-dock';
 import { motion } from "motion/react";
-import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import React from "react";
 import {
   IconBrandGithub,
@@ -13,14 +11,16 @@ import {
   IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
-import { Lens } from "@/components/ui/lens";
 import { cn } from "@/lib/utils";
-import { BackgroundGradient } from "@/components/ui/background-gradient";
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
-import { ThreeDMarquee } from "@/components/ui/3d-marquee";
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import { Box, Lock, Search, Settings, Sparkles } from "lucide-react";
-import { GlowingEffect } from "@/components/ui/glowing-effect";
+import { FloatingDock } from '@/components/aceternity/floating-dock';
+import { HeroHighlight, Highlight } from "@/components/aceternity/hero-highlight";
+import { Lens } from "@/components/aceternity/lens";
+import { BackgroundGradient } from "@/components/aceternity/background-gradient";
+import { EvervaultCard, Icon } from "@/components/aceternity/evervault-card";
+import { ThreeDMarquee } from "@/components/aceternity/3d-marquee";
+import { HoverBorderGradient } from "@/components/aceternity/hover-border-gradient";
+import { GlowingEffect } from "@/components/aceternity/glowing-effect";
 
 export default function AceternityPage() {
   const links = [
